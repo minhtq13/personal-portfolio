@@ -92,7 +92,7 @@ export const NavBar = () => {
               >
                 <a
                   target="_blank"
-                  href="./CV/CVTaQuangMinh.pdf"
+                  href="../../CV/CVTaQuangMinh.pdf"
                   class="cvbtn"
                   //   download
                 >
