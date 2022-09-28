@@ -84,7 +84,7 @@ export const NavBar = () => {
                 Project
               </Nav.Link>
               <Nav.Link
-                href=""
+                href="/"
                 className={
                   activeLink === "myCV" ? "active navbar-link" : "navbar-link"
                 }
