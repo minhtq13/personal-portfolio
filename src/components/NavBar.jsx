@@ -92,7 +92,7 @@ export const NavBar = () => {
               >
                 <a
                   target="_blank"
-                  href="../../public/CV/CVTaQuangMinh.pdf"
+                  href="https://minhtq13.github.io/personal-portfolio/CV/CVTaQuangMinh.pdf"
                   class="cvbtn"
                   //   download
                 >
