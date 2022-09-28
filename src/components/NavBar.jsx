@@ -81,7 +81,7 @@ export const NavBar = () => {
                 }
                 onClick={() => onUpdateActiveLink("projects")}
               >
-                Projects
+                Project
               </Nav.Link>
               <Nav.Link
                 href=""
@@ -92,7 +92,7 @@ export const NavBar = () => {
               >
                 <a
                   target="_blank"
-                  href="../../CV/CVTaQuangMinh.pdf"
+                  href="../../public/CV/CVTaQuangMinh.pdf"
                   class="cvbtn"
                   //   download
                 >
