@@ -1,14 +1,13 @@
 /* eslint-disable react/jsx-no-target-blank */
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/img/logo.svg";
-
+// import logo from "../assets/img/logo.svg";
 import gitHubIcon from "../assets/img/GitHub-Mark.png";
 import FBIcon from "../assets/img/nav-icon2.svg";
 import IGIcon from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
-// import CVPersonal from "../assets/CV/CVTaQuangMinh.pdf";
+
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
@@ -36,7 +35,12 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            {/* <img
+              src={logo}
+              alt="Logo"
+              style={{ width: "80%", height: "80%" }}
+            /> */}
+            Q. M Ta
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -94,7 +98,6 @@ export const NavBar = () => {
                   target="_blank"
                   href="https://minhtq13.github.io/personal-portfolio/CV/CVTaQuangMinh.pdf"
                   class="cvbtn"
-                  //   download
                 >
                   Download CV
                 </a>
